@@ -1,0 +1,138 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    height: 100%;
+    font-family: 'Outfit', sans-serif;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(216, 12%, 8%);
+    max-width: 1440px;
+    min-width: 375px;
+    height: 100%;
+    margin: auto;
+  }
+
+  .card {
+    /* width: 400px; */
+    /* height: 375px; */
+    background-color: hsl(213, 19%, 18%);
+    margin: auto;
+    border-radius: 30px;
+  }
+
+  .padding-20 {
+    padding: 20px;
+  }
+
+  .padding-30 {
+    padding: 30px;
+  }
+
+  .padding-10 {
+    padding: 10px;
+  }
+
+  .heading{
+    padding: 10px;
+    letter-spacing: 3px;
+  }
+  
+  .heading .heading-1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    font-weight: 700px;
+    padding: 10px;
+  }
+  .heading .heading-2 {
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+    font-weight: 400px;
+    padding: 10px;
+    line-height: 1.5;
+  }
+
+  .lg-color {
+    color: hsl(217, 12%, 63%);
+  }
+
+  .btn {
+    color:#fff;
+    text-align: center;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px;
+    font-weight: 400px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .btn:hover{
+    transition: 0.3s;
+    background-color: #fff;
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+  }
+
+  .btn-primary {
+    background-color: hsl(25, 97%, 53%);
+  }
+
+  .star {
+    padding: 10px;
+    margin: 10px;
+    /* height: 50px; */
+    width: 50px;
+    line-height: 30px;
+    text-align: center;
+    
+    background-color: hsl(213, 20%, 22%);
+    border-radius: 50%;
+    display: inline-block;
+  } 
+  .all-stars .star:hover{
+    cursor: pointer;
+    background-color: hsl(25, 97%, 53%);
+    transition: 0.8s;
+  }
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+
+
+  .selected{
+    margin: auto;
+    display: block;
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(213, 20%, 22%);
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    width: fit-content;
+  }
+
+  .submit-img{
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+  }
+
+  .center{
+    text-align: center;
+  }
